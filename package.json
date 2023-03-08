@@ -1,5 +1,16 @@
 {
+  "name": "singlepageappvainilla",
+  "version": "1.0.0",
+  "description": "",
+  "sourcer": "src/index.html",
+  "scripts": {
+    "start": "parcel serve --port 8080 src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "author": "Noah",
+  "license": "MIT",
   "devDependencies": {
-    "parcel": "^2.8.3"
+    "parcel": "^2.8.3",
+    "posthtml-include": "^1.7.4"
   }
 }
